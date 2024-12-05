@@ -1,0 +1,159 @@
+2024-12-04 05:26:45,179 - INFO - Bot启动
+2024-12-04 05:34:39,941 - INFO - Bot启动
+2024-12-04 05:34:43,863 - INFO - User: badakaxi, ID: 1362031943
+2024-12-04 05:52:25,644 - INFO - Bot启动
+2024-12-04 05:53:56,531 - INFO - Bot启动
+2024-12-04 05:56:50,049 - INFO - Bot启动
+2024-12-04 05:57:03,491 - INFO - User: badakaxi, ID: 1362031943
+2024-12-04 06:00:00,219 - INFO - Bot启动
+2024-12-04 08:56:27,659 - INFO - Bot启动
+2024-12-04 08:56:43,340 - INFO - User: badakaxi, ID: 1362031943
+2024-12-04 09:01:23,821 - INFO - Bot启动
+2024-12-04 09:01:26,978 - INFO - User: badakaxi, ID: 1362031943
+2024-12-04 09:02:58,332 - INFO - Bot启动
+2024-12-04 09:03:00,804 - INFO - User: badakaxi, ID: 1362031943
+2024-12-04 09:03:42,139 - INFO - Bot启动
+2024-12-04 09:03:45,844 - INFO - User: badakaxi, ID: 1362031943
+2024-12-04 09:04:24,383 - INFO - Bot启动
+2024-12-04 09:04:28,795 - INFO - User: badakaxi, ID: 1362031943
+2024-12-04 09:10:17,229 - INFO - Bot启动
+2024-12-04 09:10:23,699 - INFO - User: badakaxi, ID: 1362031943
+2024-12-04 09:10:24,344 - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found
+2024-12-04 09:10:24,347 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.8/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/data/data/com.termux/files/usr/lib/python3.8/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/data/data/com.termux/files/usr/lib/python3.8/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/data/data/com.termux/files/usr/lib/python3.8/site-packages/telebot/__init__.py", line 8945, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "run.py", line 23, in list_namefiles
+    bot.send_message(message, "我是西瓜皮🍉，/n一个非智能机器人。/n发送 /help 查看帮助！")
+  File "/data/data/com.termux/files/usr/lib/python3.8/site-packages/telebot/__init__.py", line 1775, in send_message
+    apihelper.send_message(
+  File "/data/data/com.termux/files/usr/lib/python3.8/site-packages/telebot/apihelper.py", line 273, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/data/data/com.termux/files/usr/lib/python3.8/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/data/data/com.termux/files/usr/lib/python3.8/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found
+
+2024-12-04 09:11:28,013 - INFO - Bot启动
+2024-12-04 09:11:30,542 - INFO - User: badakaxi, ID: 1362031943
+2024-12-04 09:12:41,753 - INFO - Bot启动
+2024-12-04 09:12:46,313 - INFO - User: badakaxi, ID: 1362031943
+2024-12-04 09:17:19,050 - INFO - Bot启动
+2024-12-04 09:19:25,201 - INFO - Bot启动
+2024-12-04 09:19:36,595 - INFO - User: badakaxi, ID: 1362031943
+2024-12-04 09:32:30,200 - INFO - Bot启动
+2024-12-04 09:44:24,398 - INFO - Bot启动
+2024-12-04 09:47:44,943 - INFO - Bot启动
+2024-12-04 09:50:25,982 - INFO - Bot启动
+2024-12-04 09:54:07,329 - INFO - Bot启动
+2024-12-04 09:57:14,379 - INFO - Bot启动
+2024-12-04 10:01:03,058 - INFO - Bot启动
+2024-12-04 10:01:32,527 - INFO - Bot启动
+2024-12-04 10:01:45,721 - INFO - Bot启动
+2024-12-04 10:04:13,221 - INFO - Bot启动
+2024-12-04 10:07:23,444 - INFO - Bot启动
+2024-12-04 10:09:01,399 - INFO - Bot启动
+2024-12-04 10:13:13,427 - INFO - Bot启动
+2024-12-04 10:16:04,801 - INFO - Bot启动
+2024-12-04 10:16:50,132 - INFO - User: badakaxi, ID: 1362031943
+2024-12-04 10:19:17,726 - INFO - Bot启动
+2024-12-04 10:23:07,424 - INFO - Bot启动
+2024-12-04 10:23:15,558 - INFO - User: badakaxi, ID: 1362031943
+2024-12-05 08:38:49,385 - INFO - Bot启动
+2024-12-05 08:40:54,766 - INFO - User: badakaxi, ID: 1362031943
+2024-12-05 08:40:55,086 - INFO - User: badakaxi, ID: 1362031943
+2024-12-05 08:40:55,201 - INFO - User: badakaxi, ID: 1362031943
+2024-12-05 08:40:55,526 - INFO - User: badakaxi, ID: 1362031943
+2024-12-05 08:41:37,786 - INFO - User: badakaxi, ID: 1362031943
+2024-12-05 12:45:25,163 - INFO - Bot启动
+2024-12-05 12:55:09,831 - INFO - Bot启动
+2024-12-05 13:01:10,065 - INFO - Bot启动
+2024-12-05 13:01:47,260 - INFO - User: badakaxi, ID: 1362031943
+2024-12-05 13:02:25,448 - INFO - User: badakaxi, ID: 1362031943
+2024-12-05 13:04:14,289 - INFO - Bot启动
+2024-12-05 13:04:18,524 - INFO - User: badakaxi, ID: 1362031943
+2024-12-05 13:06:01,604 - INFO - Bot启动
+2024-12-05 13:06:10,009 - INFO - User: badakaxi, ID: 1362031943
+2024-12-05 13:08:51,208 - INFO - User: badakaxi, ID: 1362031943
+2024-12-05 13:09:35,445 - INFO - User: badakaxi, ID: 1362031943
+2024-12-05 13:11:27,072 - INFO - Bot启动
+2024-12-05 13:11:36,611 - INFO - User: badakaxi, ID: 1362031943
+2024-12-05 22:53:12,554 - INFO - Bot启动
+2024-12-05 22:53:15,381 - INFO - User: badakaxi, ID: 1362031943
+2024-12-05 22:53:15,382 - INFO - User: badakaxi, ID: 1362031943
+2024-12-05 22:53:45,393 - INFO - User: badakaxi, ID: 1362031943
+2024-12-05 22:54:42,843 - INFO - Bot启动
+2024-12-05 22:54:51,926 - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-12-05 22:54:51,931 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.8/site-packages/telebot/__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/data/data/com.termux/files/usr/lib/python3.8/site-packages/telebot/util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "/data/data/com.termux/files/usr/lib/python3.8/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/data/data/com.termux/files/usr/lib/python3.8/site-packages/telebot/__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/data/data/com.termux/files/usr/lib/python3.8/site-packages/telebot/__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+  File "/data/data/com.termux/files/usr/lib/python3.8/site-packages/telebot/apihelper.py", line 330, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/data/data/com.termux/files/usr/lib/python3.8/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/data/data/com.termux/files/usr/lib/python3.8/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+2024-12-05 22:57:34,504 - INFO - Bot启动
+2024-12-05 23:00:17,493 - INFO - Bot启动
+2024-12-05 23:05:22,636 - INFO - Bot启动
+2024-12-05 23:06:08,141 - INFO - User: badakaxi, ID: 1362031943
+2024-12-05 23:06:38,164 - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found
+2024-12-05 23:06:38,166 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.8/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/data/data/com.termux/files/usr/lib/python3.8/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/data/data/com.termux/files/usr/lib/python3.8/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/data/data/com.termux/files/usr/lib/python3.8/site-packages/telebot/__init__.py", line 8945, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "run.py", line 41, in handle_addlink
+    bot.send_message(message, "已经启动编辑模式！\n点击进入开始编辑")
+  File "/data/data/com.termux/files/usr/lib/python3.8/site-packages/telebot/__init__.py", line 1775, in send_message
+    apihelper.send_message(
+  File "/data/data/com.termux/files/usr/lib/python3.8/site-packages/telebot/apihelper.py", line 273, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/data/data/com.termux/files/usr/lib/python3.8/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/data/data/com.termux/files/usr/lib/python3.8/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found
+
+2024-12-06 00:02:41,083 - INFO - Bot启动
+2024-12-06 00:08:16,179 - INFO - User: badakaxi, ID: 1362031943
+2024-12-06 00:09:46,327 - INFO - User: badakaxi, ID: 1362031943
+2024-12-06 00:15:56,267 - INFO - Bot启动
+2024-12-06 00:17:04,240 - INFO - Bot启动
+2024-12-06 00:17:54,485 - INFO - Bot启动
+2024-12-06 00:18:41,958 - INFO - User: badakaxi, ID: 1362031943
+2024-12-06 00:20:09,613 - INFO - User: badakaxi, ID: 1362031943
+2024-12-06 00:21:02,514 - INFO - User: badakaxi, ID: 1362031943
+2024-12-06 00:25:39,365 - INFO - Bot启动
+2024-12-06 00:29:54,688 - INFO - Bot启动
+2024-12-06 00:29:58,805 - INFO - User: badakaxi, ID: 1362031943
+2024-12-06 00:32:49,487 - INFO - Bot启动
+2024-12-06 00:34:02,487 - INFO - Bot启动
+2024-12-06 00:34:24,998 - INFO - User: badakaxi, ID: 1362031943
+2024-12-06 00:44:22,854 - INFO - Bot启动
+2024-12-06 00:48:14,453 - INFO - Bot启动
+2024-12-06 00:53:19,071 - INFO - Bot启动
+2024-12-06 00:53:46,105 - INFO - User: badakaxi, ID: 1362031943
